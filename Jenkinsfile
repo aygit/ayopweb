@@ -17,7 +17,7 @@ pipeline {
                     app = docker.build("ayopweb")
                 }
             }
-
+          }
 
         stage('Push Docker Image') {
 
@@ -31,5 +31,6 @@ pipeline {
                 }
             }
         }
-
+     }
+   
 }
