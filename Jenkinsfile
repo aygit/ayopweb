@@ -14,7 +14,7 @@ pipeline {
             
             steps {
                 script {
-                    app = docker.build("ayodejiemiloju1")
+                    app = docker.build("ayodejiemiloju1/ayopweb")
                 }
             }
           }
